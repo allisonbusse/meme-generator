@@ -6,5 +6,5 @@ const token = sign({ 'hi': 'there', }, 'SUPERS3Cre7!', {
 
 console.log(token);
 
-const valid= verify(token, 'SUPERS3Cre');
+const valid = verify(token, 'SUPERS3Cre');
 console.log(valid);
